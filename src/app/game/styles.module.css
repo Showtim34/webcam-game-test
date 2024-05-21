@@ -1,0 +1,43 @@
+.ball {
+    width: 120px;
+    height: 115px;
+    background: orange;
+    border-radius: 80px;
+    position: absolute;
+    bottom: 0px;
+    left: 80px
+}
+
+.gelatine {
+    animation: gelatine 0.5s infinite;
+}
+@keyframes gelatine {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+}
+
+
+.nose {
+    width: 60px;
+    height: 60px;
+    background: red;
+    border-radius: 60px;
+    position: absolute;
+    bottom: -1000px;
+    right: -10000px
+}
+
+
+.webcamContainer {
+    position: relative;
+    width: 800px;
+    background: red;
+    margin: 0 auto
+
+}
+.webcamContainer video {margin: 0 auto}
+.score {font-weight: bold; text-align: center; font-size: 2rem;}
+
+.pre {font-size: 0.8rem; font-weight: normal}
